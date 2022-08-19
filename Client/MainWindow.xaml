@@ -1,0 +1,15 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tb" HorizontalAlignment="Left" Height="45" Margin="266,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <Button Click="Button_Click" Content="Send" HorizontalAlignment="Left" Margin="431,277,0,0" VerticalAlignment="Top" Width="59" Height="45"/>
+        <TextBlock x:Name="tbl" HorizontalAlignment="Left" Margin="266,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="199" Width="224"/>
+
+    </Grid>
+</Window>
